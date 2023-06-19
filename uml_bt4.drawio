@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2023-06-19T09:26:11.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BrKNyp4tPeXZvosNj1fy" version="21.5.0" type="device">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="880" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RVap1r_SqkoEtJULKxom-47" value="Shape" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="60" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-48" value="-color" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RVap1r_SqkoEtJULKxom-47">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RVap1r_SqkoEtJULKxom-47">
+          <mxGeometry y="52" width="150" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-50" value="+ getColor()&lt;br&gt;+setColor()&lt;br&gt;+getArea()&lt;br&gt;+display()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RVap1r_SqkoEtJULKxom-47">
+          <mxGeometry y="60" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-51" value="+--------------+&#xa;         |    Shape     |&#xa;         +--------------+&#xa;         | - color      |&#xa;         +--------------+&#xa;         | + getColor() |&#xa;         | + setColor() |&#xa;         | + getArea()  |&#xa;         | + display()  |&#xa;         +-------+------+&#xa;                 ^&#xa;                 |&#xa;       +---------+----------+&#xa;       |                    |&#xa;+--------------+     +--------------+&#xa;|  Rectangle   |     |   Circle     |&#xa;+--------------+     +--------------+&#xa;| - width      |     | - radius     |&#xa;| - height     |     +--------------+&#xa;+--------------+&#xa;| + getWidth() |&#xa;| + setWidth() |&#xa;| + getHeight()|&#xa;| + setHeight()|&#xa;+--------------+&#xa;| + getArea()  |&#xa;+--------------+" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="190" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-52" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-53" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RVap1r_SqkoEtJULKxom-52">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RVap1r_SqkoEtJULKxom-52">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-55" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RVap1r_SqkoEtJULKxom-52">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-56" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="280" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-57" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RVap1r_SqkoEtJULKxom-56">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RVap1r_SqkoEtJULKxom-56">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-59" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RVap1r_SqkoEtJULKxom-56">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-60" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.493;exitY=1.075;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="778.95" y="200" as="sourcePoint" />
+            <mxPoint x="670" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVap1r_SqkoEtJULKxom-61" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.438;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RVap1r_SqkoEtJULKxom-56">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="780" y="200" as="sourcePoint" />
+            <mxPoint x="850" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
